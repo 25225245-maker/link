@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>画像表示テスト</title>
+</head>
+<body>
+  <h1>画像表示テスト</h1>
+
+  <!-- c:\Users\戸田麻衣\Downloads\新しいフォルダー\my-website\25225245.github.lo\index.html\images\myphoto.jpg.HEIC -->
+  <img id="sample-image"
+       src="images/myphoto.jpg"
+       alt="自分で撮影した写真"
+       width="300">
+
+  <script>
+    // imgタグを取得
+    const img = document.getElementById('sample-image');
+
+    console.log('画像URL:', img.src);
+  </script>
+</body>
+</html>
